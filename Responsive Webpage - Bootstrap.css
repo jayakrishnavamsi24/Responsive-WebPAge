@@ -128,11 +128,14 @@
 }
 
 .second-bg-container {
-    height: 578px;
+    height: 650px;
     width: 100%;
     background: #F1F1F1 0% 0% no-repeat padding-box;
-    padding-left: 7%;
     padding-top: 226px;
+}
+
+.padding-left {
+    padding-left: 7%;
 }
 
 .get-started {
@@ -162,12 +165,12 @@
 }
 
 .discover-more {
-    margin-left: 66px;
+    margin-left: 13%;
     height: 45px;
     width: 105px;
     border-width: 0px;
     margin-top: 5px;
-    margin-bottom: 7%;
+    margin-bottom: 70px;
     text-align: center;
     font: normal normal 600 13px/16px Segoe UI;
     letter-spacing: 0px;
@@ -177,17 +180,19 @@
 }
 
 .second-cont-card {
-    margin-left: 50px;
+    margin-left: 11%;
     margin-right: 50px;
-    padding-top: 34px;
-    height: 587px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
     background-color: #FFFFFF;
 }
 
 .second-card-heading {
     margin-left: 104px;
     margin-right: 112px;
-    margin-bottom: 26px;
+    margin-bottom: 25px;
     text-align: center;
     font: normal normal normal 30px/42px Segoe UI;
     letter-spacing: 0px;
@@ -195,6 +200,177 @@
     opacity: 1;
 }
 
+
 .second-card-heading-span {
     font-weight: 600;
+}
+
+.margin-bottom {
+    margin-bottom: 40px;
+}
+
+.segments-card-container {
+    padding: px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.card-extra {
+    display: flex;
+    justify-content: center;
+}
+
+
+.card-img {
+    width: 35px;
+    height: 35px;
+    background: transparent url('img/electric-car.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.card-heading {
+    text-align: left;
+    padding-left: 23px;
+    font: normal normal bold 15px/19px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.text-container {
+    width: 70%;
+}
+
+li {
+    text-align: left;
+    font: normal normal medium 12px/15px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.third-container {
+    margin-top: 100px;
+}
+
+.tc-heading {
+    text-align: center;
+    font: normal normal 600 50px/50px Segoe UI;
+    letter-spacing: 0px;
+    color: #F4B50D;
+    opacity: 1;
+    margin-bottom: 80px;
+}
+
+.carousel-cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+}
+
+.company-card {
+    height: 250px;
+    padding: 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 10px #00000029;
+    border: 3px solid #0D72B8;
+    opacity: 1;
+}
+
+.vertical-line {
+    width: 0px;
+    height: 50px;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.company-image {
+    width: 70px;
+}
+
+.company-name {
+    width: 150px;
+    height: 43px;
+    padding: 5px;
+    text-align: left;
+    font: normal normal bold 20px/22px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.top-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.horizontal-line {
+    height: 0px;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+
+
+.sub-heading {
+    text-align: left;
+    font: normal normal 700 12px/12px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.point {
+    text-align: left;
+    font: normal normal normal 11px/11px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.salary-detail-cont {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.arrow-container {
+    width: 86px;
+    height: 85px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 4px 36px #00000029;
+    border-radius: 50px;
+    display: flex;
+    opacity: 0.75;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dummy-container {
+    width: 86px;
+    height: 85px;
+}
+
+.arrow {
+    font-size: 48px;
+    color: #00000029;
+    border-width: 0px;
+    background-color: #FFFFFF;
+    opacity: 1;
+}
+
+.align-item {
+    align-items: center;
 }
