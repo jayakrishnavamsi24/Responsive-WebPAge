@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.top-bg-container {
+    background-color: #FFFFFF;
+    padding-top: 30px;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 17px;
+}
+
+.nav-item {
+    width: 92px;
+    height: 27px;
+    text-align: left;
+    font: normal normal normal 15px/22px Segoe UI;
+    letter-spacing: 0px;
+    color: #441E0E;
+    opacity: 1;
+}
+
+.home {
+    width: 57px;
+    height: 27px;
+    text-align: left;
+    font: normal normal bold 15px/22px Segoe UI;
+    letter-spacing: 0px;
+    color: #441E0E;
+    opacity: 1;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.home-a-tag {
+    width: 45px;
+    height: 7px;
+    background: #8A8A8A 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.logo-img {
+    width: 161px;
+    height: 48px;
+    background: transparent url('img/collabAct logo 2021.png 2 (2).png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.R-container {
+    border: 1px solid #707070;
+    height: 10px;
+    width: 10px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 6px;
+}
+
+.navbar-btns {
+    border-width: 0px;
+    background-color: #0099E6;
+    text-align: center;
+    width: 76px;
+    height: 40px;
+    font: normal normal bold 13px/35px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-right: 5px;
+}
+
+.second-container {
+    height: 450px;
+}
+
+.top-left-container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 30%;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    background: transparent url('img/twitter.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.top-right-container {
+    background-image: url("https://res.cloudinary.com/jayakrishnavamsi/image/upload/v1663870078/Group_217_xcemzf.png");
+    background-size: cover;
+    border-radius: 44px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    height: 550px;
+    padding-left: 33px;
+    padding-top: 75px;
+}
+
+.we-connect {
+    width: 80%;
+    text-align: left;
+    margin-bottom: 10px;
+    font: normal normal bold 50px/52px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 12px 6px #00000029;
+    opacity: 1;
+}
+
+.under-we-connect {
+    width: 80%;
+    text-align: left;
+    margin-top: 0px;
+    font: normal normal 600 45px/50px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 12px 6px #00000029;
+    opacity: 1;
+}
+
+.second-bg-container {
+    height: 578px;
+    width: 100%;
+    background: #F1F1F1 0% 0% no-repeat padding-box;
+    padding-left: 7%;
+    padding-top: 226px;
+}
+
+.get-started {
+    text-align: left;
+    font: normal normal 700 25px/30px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.second-cont-heading {
+    width: 52%;
+    text-align: left;
+    font: normal normal 700 35px/38px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.second-cont-decription {
+    width: 60%;
+    text-align: left;
+    font: normal normal normal 15px/19px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.discover-more {
+    margin-left: 66px;
+    height: 45px;
+    width: 105px;
+    border-width: 0px;
+    margin-top: 5px;
+    margin-bottom: 7%;
+    text-align: center;
+    font: normal normal 600 13px/16px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    background: #BABFC4 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.second-cont-card {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 34px;
+    height: 587px;
+    background-color: #FFFFFF;
+}
+
+.second-card-heading {
+    margin-left: 104px;
+    margin-right: 112px;
+    margin-bottom: 26px;
+    text-align: center;
+    font: normal normal normal 30px/42px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.second-card-heading-span {
+    font-weight: 600;
+}
