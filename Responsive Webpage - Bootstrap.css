@@ -97,19 +97,17 @@
 .top-right-container {
     background-image: url("https://res.cloudinary.com/jayakrishnavamsi/image/upload/v1663870078/Group_217_xcemzf.png");
     background-size: cover;
-    border-radius: 44px;
-    border-top-left-radius: 70px;
-    border-top-right-radius: 70px;
-    height: 550px;
-    padding-left: 33px;
-    padding-top: 75px;
+    border-radius: 70px;
+    height: 600px;
+    padding-left: 40px;
+    padding-top: 80px;
 }
 
 .we-connect {
     width: 80%;
     text-align: left;
     margin-bottom: 10px;
-    font: normal normal bold 50px/52px Segoe UI;
+    font: normal normal bold 60px/62px Segoe UI;
     letter-spacing: 0px;
     color: #FFFFFF;
     text-shadow: 0px 12px 6px #00000029;
@@ -120,7 +118,7 @@
     width: 80%;
     text-align: left;
     margin-top: 0px;
-    font: normal normal 600 45px/50px Segoe UI;
+    font: normal normal 600 55px/60px Segoe UI;
     letter-spacing: 0px;
     color: #FFFFFF;
     text-shadow: 0px 12px 6px #00000029;
@@ -128,10 +126,10 @@
 }
 
 .second-bg-container {
-    height: 650px;
+    height: 700px;
     width: 100%;
     background: #F1F1F1 0% 0% no-repeat padding-box;
-    padding-top: 226px;
+    padding-top: 280px;
 }
 
 .padding-left {
@@ -373,4 +371,283 @@ li {
 
 .align-item {
     align-items: center;
+}
+
+.steps-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: #B5C2CF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.steps-img-cont {
+    height: 105px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 18px;
+}
+
+.curved-rectangle {
+    width: 25px;
+    height: 100px;
+    background: #C38F04 0% 0% no-repeat padding-box;
+    opacity: 1;
+    align-self: center;
+}
+
+.right-bend {
+    transform: skewY(10deg);
+}
+
+.left-bend {
+    transform: skewY(-10deg);
+}
+
+.left-bend {}
+
+.steps-container-title {
+    text-align: center;
+    font: normal normal 700 30px/32px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.step-inside-img-cont {
+    display: flex;
+    justify-content: center;
+    width: 151px;
+    height: 100px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #F4B50D;
+    opacity: 1;
+}
+
+.step-inside-img {
+    height: 100px;
+}
+
+.step-num-container {
+    height: 100px;
+    display: flex;
+    background: #F4B50D 0% 0% no-repeat padding-box;
+    padding: 10px;
+    opacity: 1;
+}
+
+.step-number {
+    text-align: center;
+    font: normal normal 600 64px/61px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.step-card-title {
+    text-align: left;
+    font: normal normal 600 25px/25px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.step-card-descr {
+    font-size: 16px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    width: 70%;
+}
+
+.events-details-cont {
+    background-image: url("https://res.cloudinary.com/jayakrishnavamsi/image/upload/v1663939471/World-Map-PNG-Photo-1_qtsd1i.png");
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.event-title {
+    font: normal normal normal 25px/40px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.event-title-span {
+    font: normal normal bold 25px/40px Segoe UI;
+    margin-right: 10px;
+}
+
+.left-part-details {
+    width: 60%;
+}
+
+.right-part-details {
+    width: 40%;
+}
+
+.events-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.yellow-bar {
+    height: 16px;
+    width: 60%;
+    background: #F4B50D 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.right-yellow-bar {
+    height: 16px;
+    width: 20%;
+    flex-grow: 1;
+    background: #F4B50D 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.carousels {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.carousel-container {
+    width: 180px;
+}
+
+.carousel-title {
+    font: normal normal bold 15px/18px Segoe UI;
+    letter-spacing: 0px;
+    color: #0099E6;
+}
+
+.carousel-para {
+    color: #000000;
+}
+
+.YT-card {
+    background: #0099E6 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    padding: 25px;
+}
+
+.yt-img {
+    width: 30%;
+}
+
+.french-lang {
+    text-align: left;
+    font: normal normal normal 15px/17px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 60%;
+}
+
+.contact-details {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #F4B50D 0% 0% no-repeat padding-box;
+    box-shadow: 0px -8px 38px #0000001C;
+    opacity: 1;
+}
+
+.contact-detail-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.footer-section {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Segoe UI";
+    padding-left: 5%;
+    padding-right: 5%;
+    background: #B5C2CF 0% 0% no-repeat padding-box;
+    box-shadow: 0px -8px 38px #0000001C;
+    opacity: 1;
+}
+
+.left-text-container {
+    font-size: 15px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-text-title {
+    font-weight: 700;
+    text-decoration: normal;
+}
+
+.footer-link {
+    font: normal normal 400 15px/10px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.subscribe-cont-title {
+    color: #000000;
+    font-weight: bold;
+    width: 100%;
+}
+
+input {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #C4C4C4;
+    opacity: 1;
+    height: 35px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    font: normal normal normal 13px/13px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+}
+
+.subscribe-btn {
+    border-width: 0px;
+    height: 33px;
+    width: 100px;
+    background: #3E416C 0% 0% no-repeat padding-box;
+    font: normal normal normal 10px/14px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.subscribe-descr {
+    margin-top: 10px;
+    font: normal normal normal 13px/15px Segoe UI;
+    color: #FFFFFF;
+    opacity: 1;
 }
